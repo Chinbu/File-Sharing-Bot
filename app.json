@@ -68,7 +68,7 @@
       },
       "PROTECT_CONTENT": {
         "description": "Protect contents from getting forwarded",
-        "value": "False",
+        "value": "True",
         "required": false
       },
       "FILE_AUTO_DELETE": {
