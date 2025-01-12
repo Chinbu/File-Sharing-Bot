@@ -33,22 +33,22 @@
       },
       "FORCE_SUB_CHANNEL": {
         "description": "id of the channel or group, if you want enable force sub feature else put 0",
-        "value": "0",
+        "value": "-1002407879034",
         "required": false
       },
       "FORCE_SUB_CHANNEL2": {
         "description": "id of the channel or group, if you want enable force sub feature else put 0",
-        "value": "0",
+        "value": "-1002271962807",
         "required": false
       },
       "DB_URL": {
           "description": "Your Mongo DB Database URL",
-          "value": "",
+          "value": "mongodb+srv://itfeel469:Xn1dAIDqHKhb0pGz@cluster0.gs9yv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
           "required": true
       },
       "DB_NAME":{ 
           "description":"Your Mongo DB Database Name",
-          "value": "madflixbotz",
+          "value": "itfeel469",
           "required": false
       },
       "START_MESSAGE": {
@@ -63,17 +63,17 @@
       },
       "ADMINS": {
         "description": "A space separated list of user_ids of Admins, they can only create links",
-        "value": "",
+        "value": "7913251938",
         "required": false
       },
       "PROTECT_CONTENT": {
         "description": "Protect contents from getting forwarded",
-        "value": "False",
+        "value": "True",
         "required": false
       },
       "FILE_AUTO_DELETE": {
         "description": "auto delete in seconds",
-        "value": "600",
+        "value": "1800",
         "required": false
       }
   },
