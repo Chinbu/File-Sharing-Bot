@@ -73,7 +73,7 @@
       },
       "FILE_AUTO_DELETE": {
         "description": "auto delete in seconds",
-        "value": "1800",
+        "value": "600",
         "required": false
       }
   },
