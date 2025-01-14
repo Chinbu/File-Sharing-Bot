@@ -10,12 +10,12 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>🤖 My Name :</b> <a href='https://t.me/FileSharingXProBot'>File Sharing Bot</a> \n<b>📝 Language :</b> <a href='https://python.org'>Python 3</a> \n<b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram {__version__}</a> \n<b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a> \n<b>📢 Channel :</b> <a href='https://t.me/Madflix_Bots'>Madflix Botz</a> \n<b>🧑‍💻 Developer :</b> <a href='tg://user?id={OWNER_ID}'>Jishu Developer</a>",
+            text = f"<b>◈ ᴍʏ ɴᴀᴍᴇ :</b> <a href='https://t.me/mi_ku_pie_bot'>ᴍɪᴋᴀ*</a> \n<b>◈ ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ :</b> <a href='https://t.me/B_ani_me'>ᴀɴɪᴍᴇ ᴄʀᴜɪsᴇ</a> \n<b>◈ ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ :</b> <a href='https://pyrogram.org'>ᴍᴏᴠɪᴇ ᴄʀᴜɪsᴇ</a> \n<b>◈ ᴅʀᴀᴍᴀ ᴄʜᴀɴɴᴇʟ :</b> <a href='https://heroku.com'>ᴅʀᴀᴍᴀ ᴄʀᴜɪsᴇ</a> \n<b>◈ ᴜᴘᴅᴀᴛᴇ :</b> <a href='https://t.me/Madflix_Bots'>ʙᴀᴄᴋ ᴜᴘ</a> \n<b>◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ :</b> <a href='https://t.me/ad_minn_bot'>ᴀᴅᴍɪɴ</a>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔒 Close", callback_data = "close")
+                        InlineKeyboardButton("🔒 ᴄʟᴏsᴇ", callback_data = "close")
                     ]
                 ]
             )
