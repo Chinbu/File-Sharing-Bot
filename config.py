@@ -57,11 +57,11 @@ BOT_STATS_TEXT = "<b>BOT UPTIME :</b>\n{uptime}"
 
 
 
-USER_REPLY_TEXT = "❌ᴅᴏɴ'ᴛ sᴇɴᴅ ᴍᴇ ᴍᴇssᴀɢɢᴇs ᴅɪʀᴇᴄᴛʀʟʏ. ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ sᴇɴsᴇɪ !!\n◈ᴍʏ sᴇɴsᴇɪ : <a href=https://t.me/ad_minn_bot>sᴇɴsᴇɪ</a>"
+USER_REPLY_TEXT = "❌ᴅᴏɴ'ᴛ sᴇɴᴅ ᴍᴇ ᴍᴇssᴀɢɢᴇs ᴅɪʀᴇᴄᴛʀʟʏ. ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ sᴇɴsᴇɪ !!\n◈ ᴍʏ sᴇɴsᴇɪ : <a href=https://t.me/ad_minn_bot>ᴅᴇᴀʀ sᴇɴsᴇɪ !!</a>"
 
-START_MSG = os.environ.get("START_MESSAGE", "Hello {mention}\n\nI Can Store Private Files In Specified Channel And Other Users Can Access It From Special Link.")
+START_MSG = os.environ.get("START_MESSAGE", "ʜᴇʟʟᴏ {mention} ɪ ᴀᴍ ᴍɪᴋᴀ*\n\nɪ ᴄᴀɴ sᴛᴏʀᴇ ғɪʟᴇ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.")
 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {mention}\n\n<b>You Need To Join In My Channel/Group To Use Me\n\nKindly Please Join Channel</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ʜᴇʟʟᴏ {mention} ɪ ᴀᴍ ᴍɪᴋᴀ*\n\n<b>ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴊᴏɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟs.\n\nᴋɪɴᴅʟʏ ᴊᴏɪɴ ᴛʜɪs👇🏻 ᴄʜᴀɴɴᴇʟs.</b>")
 
 
 
