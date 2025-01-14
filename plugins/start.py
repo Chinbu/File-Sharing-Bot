@@ -89,7 +89,7 @@ async def start_command(client: Client, message: Message):
                 pass
 
 
-        k = await client.send_message(chat_id = message.from_user.id, text=f"<b>❗️ <u>IMPORTANT</u> ❗️</b>\n\nThis File Will Be Deleted In {file_auto_delete}.")
+        k = await client.send_message(chat_id = message.from_user.id, text=f"<b>❗️ <u>ɪᴍᴘᴏʀᴛᴀɴᴛ</u> ❗️</b>\n\nᴛʜɪs ғɪʟᴇ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ɪɴ {file_auto_delete}.")
 
         # Schedule the file deletion
         asyncio.create_task(delete_files(madflix_msgs, client, k))
@@ -143,7 +143,7 @@ async def not_joined(client: Client, message: Message):
         buttons.append(
             [
                 InlineKeyboardButton(
-                    text = 'Try Again',
+                    text = 'ᴛʀʏ ᴀɢᴀɪɴ',
                     url = f"https://t.me/{client.username}?start={message.command[1]}"
                 )
             ]
@@ -168,7 +168,7 @@ async def not_joined(client: Client, message: Message):
 
 @Bot.on_message(filters.command('users') & filters.private & filters.user(ADMINS))
 async def get_users(client: Bot, message: Message):
-    msg = await client.send_message(chat_id=message.chat.id, text=f"Processing...")
+    msg = await client.send_message(chat_id=message.chat.id, text=f"ᴘʀᴏᴄᴇssɪɴɢ.....")
     users = await full_userbase()
     await msg.edit(f"{len(users)} Users Are Using This Bot")
 
@@ -185,7 +185,7 @@ async def send_text(client: Bot, message: Message):
         deleted = 0
         unsuccessful = 0
         
-        pls_wait = await message.reply("<i>Broadcasting Message.. This will Take Some Time</i>")
+        pls_wait = await message.reply("<i>ʙʀᴏᴀᴅᴄᴀsᴛɪɴɢ ᴍᴇssᴀɢᴇ... ᴛʜɪs ᴡɪʟʟ ᴛᴀᴋᴇ sᴏᴍᴇ ᴛɪᴍᴇ.</i>")
         for chat_id in query:
             try:
                 await broadcast_msg.copy(chat_id)
@@ -205,13 +205,13 @@ async def send_text(client: Bot, message: Message):
                 pass
             total += 1
         
-        status = f"""<b><u>Broadcast Completed</u></b>
+        status = f"""<b><u>ʙʀᴏᴀᴅᴄᴀsᴛ ᴄᴏᴍᴘʟᴇᴛᴇᴅ</u></b>
 
-<b>Total Users :</b> <code>{total}</code>
-<b>Successful :</b> <code>{successful}</code>
-<b>Blocked Users :</b> <code>{blocked}</code>
-<b>Deleted Accounts :</b> <code>{deleted}</code>
-<b>Unsuccessful :</b> <code>{unsuccessful}</code>"""
+<b>ᴛᴏᴛᴀʟ ᴜsᴇʀs :</b> <code>{total}</code>
+<b>sᴜᴄᴄᴇssғᴜʟ :</b> <code>{successful}</code>
+<b>ʙʟᴏᴄᴋ ᴜsᴇʀs :</b> <code>{blocked}</code>
+<b>ᴅᴇʟᴇᴛᴇᴅ ᴀᴄᴄᴏᴜɴᴛs :</b> <code>{deleted}</code>
+<b>ᴜɴsᴜᴄᴄᴇssғᴜʟ :</b> <code>{unsuccessful}</code>"""
         
         return await pls_wait.edit(status)
 
@@ -236,7 +236,7 @@ async def delete_files(messages, client, k):
         except Exception as e:
             print(f"The attempt to delete the media {msg.id} was unsuccessful: {e}")
     # await client.send_message(messages[0].chat.id, "Your Video / File Is Successfully Deleted ✅")
-    await k.edit_text("Your File Is Successfully Deleted ✅")
+    await k.edit_text("ʏᴏᴜʀ ғɪʟᴇ ɪs sᴜᴄᴄᴇssғᴜʟʟʏ ᴅᴇʟᴇᴛᴇᴅ ✅")
 
 
 
