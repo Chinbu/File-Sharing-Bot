@@ -17,10 +17,10 @@ DB_NAME = os.environ.get("DB_NAME", "itfeel469")
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002251678119"))
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002483754513"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002283993103"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002356178453"))
 
 
-FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "7200")) # auto delete in seconds
+FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", None)) # auto delete in seconds
 
 
 PORT = os.environ.get("PORT", "8080")
