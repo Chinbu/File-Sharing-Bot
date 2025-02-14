@@ -15,9 +15,9 @@ DB_URL = os.environ.get("DB_URL", "mongodb+srv://itfeel469:Xn1dAIDqHKhb0pGz@clus
 DB_NAME = os.environ.get("DB_NAME", "itfeel469")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002251678119"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002483754513"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002356178453"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002423705586"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002472703110"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002271962807"))
 
 
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "86400")) # auto delete in seconds
@@ -61,7 +61,7 @@ USER_REPLY_TEXT = "❌ᴅᴏɴ'ᴛ sᴇɴᴅ ᴍᴇ ᴍᴇssᴀɢɢᴇs ᴅɪʀ�
 
 START_MSG = os.environ.get("START_MESSAGE", "ʜᴇʟʟᴏ {mention} ɪ ᴀᴍ ᴍɪᴋᴀ*\n\nɪ ᴄᴀɴ sᴛᴏʀᴇ ғɪʟᴇ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.")
 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ʜᴇʟʟᴏ {mention} ɪ ᴀᴍ ᴍɪᴋᴀ*\n\n<b>ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴊᴏɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟs.\n\nᴋɪɴᴅʟʏ ᴊᴏɪɴ ᴛʜɪs👇🏻 ᴄʜᴀɴɴᴇʟs.</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ʜᴇʟʟᴏ {mention} ɪ ᴀᴍ ᴀɴɪ_ᴍɪx*\n\n<b>ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴊᴏɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟs.\n\nᴋɪɴᴅʟʏ ᴊᴏɪɴ ᴛʜɪs👇🏻 ᴄʜᴀɴɴᴇʟs.</b>")
 
 
 
