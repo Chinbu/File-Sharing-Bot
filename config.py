@@ -59,7 +59,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME :</b>\n{uptime}"
 
 USER_REPLY_TEXT = "❌ᴅᴏɴ'ᴛ sᴇɴᴅ ᴍᴇ ᴍᴇssᴀɢɢᴇs ᴅɪʀᴇᴄᴛʀʟʏ. ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ sᴇɴsᴇɪ !!\n◈ ᴍʏ sᴇɴsᴇɪ : <a href=https://t.me/ad_minn_bot>ᴅᴇᴀʀ sᴇɴsᴇɪ !!</a>"
 
-START_MSG = os.environ.get("START_MESSAGE", "ʜᴇʟʟᴏ {mention} ɪ ᴀᴍ ᴍɪᴋᴀ*\n\nɪ ᴄᴀɴ sᴛᴏʀᴇ ғɪʟᴇ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.")
+START_MSG = os.environ.get("START_MESSAGE", "ʜᴇʟʟᴏ {mention} ɪ ᴀᴍ ᴀɴɪ_ᴍɪx*\n\nɪ ᴄᴀɴ sᴛᴏʀᴇ ғɪʟᴇ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.")
 
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ʜᴇʟʟᴏ {mention} ɪ ᴀᴍ ᴀɴɪ_ᴍɪx*\n\n<b>ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴊᴏɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟs.\n\nᴋɪɴᴅʟʏ ᴊᴏɪɴ ᴛʜɪs👇🏻 ᴄʜᴀɴɴᴇʟs.</b>")
 
